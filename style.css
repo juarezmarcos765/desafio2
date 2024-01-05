@@ -20,7 +20,7 @@ html, body{
     min-height: 100vh;
     background-color: darkgray;
     font-family: var(--font1);
-}
+    }
 
 header{
     background-color: black;
@@ -33,20 +33,21 @@ header > h1{
     font-variant: small-caps;
     font-family: var(--font2);
     font-size: 8vw;
-}
+    }
 
 header > p{
     padding-bottom: 50px;
-}
+    }
 
 a{
     color: white;
     text-decoration: none;
     font-weight: bolder;
-}
+    }
+
 a:hover{
     text-decoration: underline;
-}
+    }
 
 section{
     padding-top: 10vh;
@@ -55,20 +56,27 @@ section{
     padding-left: 30px;
     font-family: var(--font3);
     font-size: 3.5vw;
-}
+    }
+
+section > p{
+    padding-bottom: 2em;
+}    
 
 section.normal{
     background-color: white;
     color: black;
-}
+    }
 
 section.imagem{
     background-color: rgb(85, 76, 76);
     color: white;
+    text-shadow: 1px 1px 0px black;
+    box-shadow: inset 6px 9px 13px 0px rgba(0, 0, 0, 0.88);
+    background-attachment: fixed;
     }
 
     section.imagem > p {
-        background-color: rgba(0, 0, 0, 0.616);
+        background-color: rgba(0, 0, 0, 0.719);
         display: inline-block;
         padding: 5px;
     }
@@ -79,6 +87,18 @@ footer{
     color: white;
     text-decoration: none;
     padding: 10px;
+    text-align: center;
 
+    }
+
+section#img1{
+background-image: url(background001.jpg);
+background-position: right center;
+background-size: cover;
 }
 
+section#img2{
+    background-image: url(background002.jpg);
+    background-position: right center;
+    background-size: cover;
+}
