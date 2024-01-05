@@ -1,25 +1,38 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & family= Passion+One & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & family= Passion+One & family= Sriracha & display=swap');
+
+:root{
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Bebas Neue'sans-serif;
+    --font3: 'Sriracha' sans-serif;
+}
+
 
 *{
     margin: 0px;
     padding: 0px;
-}
+    }
 
 html, body{
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--font1);
 }
 
 header{
     background-color: black;
     color: white;
     text-align: center;
-}
+    }
 
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--font2);
+    font-size: 8vw;
 }
 
 header > p{
@@ -40,6 +53,8 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--font3);
+    font-size: 3.5vw;
 }
 
 section.normal{
@@ -54,13 +69,16 @@ section.imagem{
 
     section.imagem > p {
         background-color: rgba(0, 0, 0, 0.616);
-        width: 400px;
+        display: inline-block;
+        padding: 5px;
     }
+
 
 footer{
     background-color: black;
     color: white;
     text-decoration: none;
     padding: 10px;
+
 }
 
